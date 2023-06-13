@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    height : 100%;
+}
+
+body {
+    height: calc(100% - 56px);
+}
+
+.main-zone {
+    width: calc(100% - 280px);
+    vertical-align: top;
+}
+
+.messenger-box {
+    overflow-y: scroll;
+}
+
+textarea {
+    resize: none;
+}
+
+.user:hover {
+    background-color: #b0b2b4;
+}

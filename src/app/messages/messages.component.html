@@ -1,0 +1,6 @@
+<div class="h-75 mw-100 m-0 border-bottom messenger-box bg-body-secondary">
+    <div *ngFor="let m of messages" class="p-4 rounded border mw-100 mb-1 bg-light">
+        <p>{{m.auteur}}<small>&nbsp;{{m.heure | date : "le dd/MM à hh:mm"}}</small></p>
+        <p>{{m.contenu}}</p>
+    </div>
+</div>
